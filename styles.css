@@ -1,6 +1,41 @@
 
+/* Reset margins and paddings and use border-box sizing */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body, html { height: 100%%; }
-#app { position: relative; height: 100%%; display: flex; align-items: center; justify-content: center; text-align: center; }
-#bgImage { position: absolute; top: 0; left: 0; width: 100%%; height: 100%%; object-fit: cover; z-index: -1; }
-#quote { color: white; font-size: 3em; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); padding: 20px; }
+/* Full height for the page */
+body, html { height: 100%; }
+/* Container for the background image and quote */
+#app {
+    position: relative;
+    height: 100%;
+}
+/* The background image: show entire image and fallback color behind */
+#bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #000;
+    z-index: -1;
+}
+/* Styling for the motivational quote */
+/* Styling for the motivational quote
+ * Position the quote slightly below the center so it doesn’t overlap with the image.
+ * Reduce the width so the text doesn’t span edge‑to‑edge.
+ * Increase font size and adjust the colour to a deeper, grander gold tone.
+ */
+#quote {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    color: #D4AF37; /* deep metallic gold for a grand feel */
+    font-size: 6vw;
+    line-height: 1.4;
+    font-weight: 800;
+    font-family: 'Nanum Myeongjo', serif;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}

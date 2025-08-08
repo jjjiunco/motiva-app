@@ -8,16 +8,14 @@ const IMAGES = [
 
 // Array of motivational quotes shown beneath each image.
 const quotes = [
-  '공부는 자신을 믿는 가장 확실한 방법이다.',
-  '성공은 준비된 자에게 찾아온다.',
-  '오늘의 노력이 내일의 성과를 만든다.',
-  '배움에 끝은 없다.',
-  '천재는 노력하는 자를 이길 수 없다.',
-  '시작이 반이다.',
-  '작은 습관이 큰 변화를 만든다.',
-  '노력은 배신하지 않는다.',
-  '포기는 빠를수록 좋다, 그러나 시도는 반드시 있어야 한다.',
-  '미래는 오늘 무엇을 하느냐에 달려 있다.'
+  // Longer, more lyrical motivational quotes. Each string may span multiple clauses to evoke
+  // imagery and inspire more deeply. Feel free to add your own favourite sayings here.
+  '공부는 물 한 바구니를 옮기듯 작은 물방울이 모여 강을 이룬다. 오늘의 노력이 미래의 당신을 빛나게 한다.',
+  '지식은 세상을 넓게 보는 창이다. 매일 새로운 것을 배우며 깊어지는 나를 느껴보자.',
+  '포기하지 않는 마음이 있는 한 당신의 미래는 언제나 빛날 것이다. 느리더라도 꾸준히 걸어가라.',
+  '배움의 즐거움은 삶을 풍성하게 만든다. 경험과 지식이 쌓일수록 우리는 더욱 단단해진다.',
+  '진정한 성취는 남과 비교하지 않고 어제의 나보다 오늘 더 나아진 자신과 비교할 때 찾아온다.',
+  '조금씩 조금씩 쌓아가는 노력들이 어느 날 갑자기 큰 변화를 만들어 낸다. 지금 이 순간부터 시작하라.'
 ];
 
 // Index of the current image in the rotation. Initialized to -1 so the first call to updateContent() sets index 0.
