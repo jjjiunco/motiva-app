@@ -1,5 +1,7 @@
-
-const images = {};
+const IMAGES = [
+  './bg1.jpeg','./bg2.jpeg','./bg3.jpeg','./bg4.jpeg','./bg5.jpeg',
+  './bg6.jpeg','./bg7.jpeg','./bg8.jpeg','./bg9.jpeg','./bg10.jpeg'
+];
 let currentIndex = -1;
 const quotes = ["공부는 자신을 믿는 가장 확실한 방법이다.", "성공은 준비된 자에게 찾아온다.", "오늘의 노력이 내일의 성과를 만든다.", "배움에는 끝이 없다.", "포기하지 않는 자가 결국 승리한다."];
 function preloadImages() {
