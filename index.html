@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +9,12 @@
 </head>
 <body>
     <div id="app">
-        <img id="bgImage" src="" alt="Background">
+        <!-- Background image element; updated by app.js -->
+        <img id="bgImage" src="" alt="배경 이미지">
+        <!-- Motivational quote element; updated by app.js -->
         <div id="quote"></div>
     </div>
-    <script src="app.js"></script>
+    <!-- Append a version query to bust caches when deploying a new build -->
+    <script src="app.js?v=3" defer></script>
 </body>
 </html>
